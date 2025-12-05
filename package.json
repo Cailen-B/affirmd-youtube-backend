@@ -1,0 +1,14 @@
+{
+  "name": "affirmd-youtube-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
