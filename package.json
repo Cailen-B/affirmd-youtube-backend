@@ -5,10 +5,19 @@
   "scripts": {
     "dev": "vercel dev"
   },
-  "dependencies": {
-    "ytdl-core": "^4.11.5"
+"dependencies": {
+    "ytdl-core": "^4.11.5",
+    "cors": "^2.8.5",
+    // Add if using express (from my code snippet)
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "vercel": "^32.0.0"
+  },
+  "overrides": {
+    "uuid": "^9.0.1",
+    "debug": "^4.3.6",
+    "glob": "^10.3.12",
+    "rimraf": "^5.0.5"
   }
 }
